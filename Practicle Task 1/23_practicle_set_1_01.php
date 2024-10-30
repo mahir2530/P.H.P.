@@ -5,7 +5,7 @@
 <body>
     <form method="POST">
         Enter only one character :- <br>
-        <input type="text" name="text"></br>
+        <input type="text" name="char"></br>
         <br><br>
         <input type="submit" value="submit" name="submit"> 
     </form>
