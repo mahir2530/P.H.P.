@@ -11,7 +11,7 @@
     </form>
     <?php
     if(isset($_POST['submit'])){
-        $char = $_POST['text'];
+        $char = $_POST['char'];
         if($char == 'a' || $char == 'e' || $char == 'i' || $char == 'o' || $char == 'u'){
             echo $char . " is vowel";
         }
