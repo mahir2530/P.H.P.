@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div style="background-color: white;width: 400px; height: 250px; border: 5px solid black; padding: 3px;">
+	<b> <font size="5"> PHP Form Validation Example </font> </b> <br>
+	<form method="POST" style="padding: 2px;" action="prectical_task6_7.php">
+		<font color="red"> * required field </font> <br>
+		Name : <input type="text" name="name" pattern="[a-zA-Z]+" title="Enter Your Name" required> <font color="red"> * Name is required </font> <br>
+		E-mail : <input type="email" name="e-mail" pattern="[\w_-]+@[\w]+\.[a-zA-Z]{2,3}$" title="Enter your email id" required> <font color="red"> * Email is required </font> <br>
+		Website : <input type="text" name="web" title="Enter your Website url" required> <font color="red"> Invalid URL </font>  <br>
+		Comment: <textarea name="comm" rows="5" cols="40"></textarea> <br>
+		Gender: <input type="radio" name="gender" value="Female" checked> Female
+		<input type="radio" name="gender" value="Male"> Male
+		<input type="radio" name="gender" value="Other"> Other <font color="red"> * Gender is required </font> <br>
+		<input type="submit" name="submit" value="submit"> 
+	</form>
+</div>
+</body>
+</html>
